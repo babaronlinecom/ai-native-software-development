@@ -20,11 +20,11 @@
 - Chapter 14 establishes solid type foundation
 - Chapter 15 (Operators) builds on type understanding—students will apply types to arithmetic operations
 
-**AIDD Workflow Applied** (Specification → Generation → Execution → Reflection):
-- **Specification**: Type hints are embedded specifications (`age: int = 25` specifies "age is an integer")
-- **Generation**: AI partnership for type exploration through dialogue ("What can I do with this type?")
-- **Execution**: `type()` and `isinstance()` teach students to validate before operations
-- **Reflection**: Troubleshooting pattern—"When TypeError occurs, ask AI 'why?' to improve understanding"
+**AI-Native Learning Pattern** (how students learn Python with AI):
+- **Describe intent**: Type hints describe what data means (`age: int = 25` says "age is a number")
+- **Explore with AI**: Students ask AI "What can I do with this type?" instead of reading documentation
+- **Validate together**: `type()` and `isinstance()` let students check their understanding
+- **Learn from errors**: When TypeError occurs, ask AI "why?" to deepen learning
 
 **Key Scope Boundaries** (Chapter 14 Responsibility):
 - ✅ **Comprehensive Coverage**: int, float, str (basics), bool, None, type hints, `type()`, `isinstance()`
@@ -54,12 +54,12 @@
   - DigComp Area: Digital Content Creation (writing code)
   - Measurable at This Level: Student can write `variable_name: type_hint = value` syntax without errors
 
-- **Skill 3**: Connecting Type Hints to Specification-Driven Development
+- **Skill 3**: Understanding How Type Hints Describe Intent
   - CEFR Level: B1 (Intermediate)
   - Category: Conceptual
   - Bloom's Level: Understand
   - DigComp Area: Problem-Solving (designing solutions)
-  - Measurable at This Level: Student can explain "how type hints communicate intent like a specification"
+  - Measurable at This Level: Student can explain "how type hints describe what data means and why this helps"
 
 **Key Concepts** (max 6):
 1. Variables - storing data with names
@@ -100,7 +100,7 @@ is_student = True
 
 **Code Example 2: Variables with Type Hints**
 ```python
-# Variables with type hints - specification-first code
+# Variables with type hints - describe what data means
 name: str = "Alex"
 age: int = 25
 height: float = 5.8
@@ -152,8 +152,8 @@ print(f"Hello, {name}! You are {age} years old.")  # Using f-string (preview)
    - AI Tool: Claude Code (for inline code generation)
    - Follow-up: "Can I create a variable with a different type hint than its actual data?"
 
-4. **Connection to AIDD**: "How do type hints connect to Specification-Driven Development from Chapter 4? Why is `age: int = 25` better than just `age = 25`? How is a type hint like a specification?"
-   - Expected Outcome: Student makes conceptual connection: type hints = embedded specifications (part of AIDD's Specification phase)
+4. **Connection to AI-Native Learning**: "Type hints describe what data means (`age: int` says 'age is a number'). How does this help me and AI understand code better than `age = 25` alone? Why is clarity important when learning with AI?"
+   - Expected Outcome: Student understands type hints make code clearer for humans AND AI
    - AI Tool: ChatGPT web (conceptual discussion)
    - Safety Note: "Type hints are helpful for clarity but don't prevent you from changing variable types later—Python allows this."
 
@@ -747,7 +747,7 @@ visited_countries: set[str] = {"USA", "Canada", "Mexico", "USA"}
 """
 Interactive Type Explorer
 Demonstrates core data types: int, float, str, bool, None
-Uses type hints for specification-first code
+Uses type hints to describe intent clearly
 Validates types before operations
 """
 
@@ -1004,7 +1004,7 @@ if __name__ == "__main__":
 - Type hints validated with mypy/pyright (type checking)
 - No forward references to Chapters 15+
 - Reading level Grade 7-8 maintained
-- AIDD workflow consistently applied (Specification → Generation → Execution → Reflection)
+- AI-Native Learning pattern consistently applied (describe intent → explore with AI → validate → learn from errors)
 
 ---
 
@@ -1021,10 +1021,10 @@ if __name__ == "__main__":
 - Type validation (isinstance) will prevent type mismatches
 
 **Horizontal Connection** (Domain Skills)**:
-- AIDD Workflow Phase 1 (Specification): Type hints demonstrate embedded specifications
-- AIDD Workflow Phase 2 (Generation): "Try With AI" emphasizes AI partnership for exploration
-- AIDD Workflow Phase 3 (Execution): isinstance() teaches validation before operations
-- AIDD Workflow Phase 4 (Reflection): Troubleshooting with AI after TypeError
+- AI-Native Learning (Describe Intent): Type hints describe what data means
+- AI-Native Learning (Explore with AI): "Try With AI" prompts emphasize dialogue-based exploration
+- AI-Native Learning (Validate Together): isinstance() teaches checking understanding
+- AI-Native Learning (Learn from Errors): Troubleshooting TypeError by asking AI "why?"
 
 **Accessibility & Inclusivity**:
 - Examples use diverse names (Alex, Alice, Bob, Charlie)
@@ -1307,7 +1307,7 @@ skill_connectivity_check: |
 - ✅ All lessons aligned to approved spec
 - ✅ No forward references to Chapters 15-29
 - ✅ Chapter boundaries respected (collections awareness only, deep dive in Ch 18-19)
-- ✅ AIDD workflow integrated (Specification phase: type hints; Generation: AI partnership; Execution: validation; Reflection: error recovery)
+- ✅ AI-Native Learning pattern integrated (describe intent: type hints; explore with AI: dialogue; validate: isinstance; learn from errors: TypeError troubleshooting)
 - ✅ Built on Chapter 13 (print function reinforced throughout)
 
 **Skills**:

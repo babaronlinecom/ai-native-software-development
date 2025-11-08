@@ -50,11 +50,11 @@ Students arrive knowing `print()` from Hello World. Chapter 14 teaches them to *
 - Explore collections awareness (list, tuple, dict, set)
 - Build simple type explorer demonstrating type operations
 
-**AIDD Workflow Applied** (Specification → Generation → Execution → Reflection):
-- **Specification**: Type hints as embedded specifications (from first variable!)
-- **Generation**: AI partnership for type exploration through dialogue, not documentation
-- **Execution**: Use isinstance() and type() to validate correctness
-- **Reflection**: When TypeError occurs, ask AI "why?" to improve understanding
+**AI-Native Learning Pattern**:
+- **Describe intent**: Type hints describe what data means (`age: int` says "age is a number")
+- **Explore with AI**: Ask AI "what can I do with this type?" instead of reading documentation
+- **Validate together**: Use isinstance() and type() to check understanding
+- **Learn from errors**: When TypeError occurs, ask AI "why?" to deepen learning
 
 ---
 
@@ -62,7 +62,7 @@ Students arrive knowing `print()` from Hello World. Chapter 14 teaches them to *
 
 Students MUST have completed:
 
-- **Chapters 1-4**: AIDD workflow (Nine Pillars, Specification-Driven Development, AI partnership)
+- **Chapters 1-4**: AI-Native development mindset (Nine Pillars, AI as learning partner)
 - **Chapter 5-11**: AI tool literacy (Claude Code, Gemini CLI, prompting, context engineering)
 - **Chapter 12**: Python UV package manager (installation and environment setup)
 - **Chapter 13**: Introduction to Python (2 lessons: What is Python + Installing Python)
@@ -229,7 +229,7 @@ Students MUST have completed:
 
 - **FR-005**: All code examples MUST use Python 3.14+ type hints and modern syntax (f-strings, `list[int]`, `dict[str, int]`)
 
-- **FR-006**: Chapter MUST reinforce AIDD workflow from Chapters 1-11 (Specification → Generation → Execution → Reflection)
+- **FR-006**: Chapter MUST reinforce AI-Native Learning pattern from Chapters 1-11 (describe intent → explore with AI → validate → learn from errors)
 
 - **FR-007**: Chapter MUST respect chapter boundaries:
   - No forward references to Chapters 15-29 (operators, control flow, functions, classes, exceptions, file I/O)
@@ -355,7 +355,7 @@ Students MUST have completed:
 1. "You learned print() in Chapter 13. Now explain what a variable is and why we need them."
 2. "What does `age: int = 25` mean? Why do we add `: int` to the variable?"
 3. "Show me how to create variables for different types of data (numbers, text, true/false). What types exist?"
-4. "How do type hints connect to Specification-Driven Development from Chapter 4? Why is this better than code without hints?"
+4. "Type hints describe what data means (`age: int` says 'age is a number'). How does this help me and AI understand code better than `age = 25` alone?"
 
 **Expected Outcomes**:
 1. Student creates variables with meaningful names
@@ -524,7 +524,7 @@ Students MUST have completed:
 **Pedagogical Compliance**:
 
 - [ ] No forward references to Chapters 15-29 (functions, classes, exceptions, files)
-- [ ] AIDD workflow reinforced (Specification → Generation → Execution → Reflection)
+- [ ] AI-Native Learning pattern reinforced (describe intent → explore with AI → validate → learn from errors)
 - [ ] Cognitive load limits respected (max 7-8 concepts per lesson)
 - [ ] Complexity tier A2-B1 maintained
 - [ ] Grade 7-8 reading level maintained
