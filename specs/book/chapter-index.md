@@ -82,6 +82,34 @@ Core language skills: production-quality Python
 | 28 | Asyncio | `28-asyncio/` | 📋 Planned |
 | 29 | CPython and GIL | `29-cpython-gil/` | 📋 Planned |
 
+---
+
+## Part 5 Quick Lookup (Chapters 12-29)
+
+For command reference: `/sp.python-chapter [N]` returns these exact chapter titles:
+
+```yaml
+ch12: "Python UV: Fastest Python Package Manager"
+ch13: "Introduction to Python"
+ch14: "Data Types"
+ch15: "Operators, Keywords, and Variables"
+ch16: "Strings and Type Casting"
+ch17: "Control Flow and Loops"
+ch18: "Lists, Tuples, and Dictionary"
+ch19: "Set, Frozen Set, and GC"
+ch20: "Module and Functions"
+ch21: "Exception Handling"
+ch22: "IO and File Handling"
+ch23: "Math, Date Time Calendar"
+ch24: "Object-Oriented Programming Part I"
+ch25: "Object-Oriented Programming Part II"
+ch26: "Meta Classes and Data Classes"
+ch27: "Pydantic and Generics"
+ch28: "Asyncio"
+ch29: "CPython and GIL"
+```
+
+**Using these titles as anchors ensures chapter-focused design without scope creep.**
 
 ---
 
