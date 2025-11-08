@@ -72,10 +72,10 @@ Core language skills: production-quality Python with AIDD
 | 12 | Python UV: Fastest Python Package Manager | `12-python-uv-package-manager/` | ✅ Implemented |
 | 13 | Introduction to Python | `13-introduction-to-python/` | ⚠️ Needs Revision |
 | 14 | Data Types | `14-data-types/` | ✅ Implemented & Validated |
-| 15 | Operators, Keywords, and Variables | `15-operators-keywords-variables/` | 📋 Planned |
-| 16 | Strings and Type Casting | `16-strings-type-casting/` | 📋 Planned |
-| 17 | Control Flow and Loops | `17-control-flow-loops/` | 📋 Planned |
-| 18 | Lists, Tuples, and Dictionary | `18-lists-tuples-dictionary/` | 📋 Planned |
+| 15 | Operators, Keywords, and Variables | `15-operators-keywords-variables/` | ✅ Implemented & Validated |
+| 16 | Strings and Type Casting | `16-strings-type-casting/` | ✅ Implemented & Validated |
+| 17 | Control Flow and Loops | `17-control-flow-loops/` | ✅ Implemented & Validated |
+| 18 | Lists, Tuples, and Dictionary | `18-lists-tuples-dictionary/` | ✅ Implemented & Validated |
 | 19 | Set, Frozen Set, and GC | `19-set-frozenset-gc/` | ✅ Implemented & Validated |
 | 20 | Module and Functions | `20-module-functions/` | 📋 Planned |
 | 21 | Exception Handling | `21-exception-handling/` | 📋 Planned |
