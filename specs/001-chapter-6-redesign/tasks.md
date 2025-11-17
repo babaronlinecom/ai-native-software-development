@@ -162,31 +162,33 @@ description: "Implementation tasks for Chapter 6 Redesign - Gemini CLI"
 
 **Checkpoint**: Lesson 3 demonstrates error analysis modality, students discover tools through productive failure
 
-### Lesson 7: Reusable Intelligence Design (REFACTOR)
+### Lesson 7: Personalizing Your AI Learning Experience (SIMPLIFIED for A2 Beginners)
 
-**Goal**: Students identify recurring patterns (2+ occurrences), create research-workflow skill using P+Q+P format
+**SCOPE CHANGE**: Original "Reusable Intelligence Design" too advanced for A2 pre-programming students. Simplified to basic custom slash commands for learning tasks.
 
-**Independent Test**: Student creates working skill, applies to new task, measures efficiency gain (US3)
+**Goal**: Students create simple custom slash commands to save effective learning prompts for reuse
 
-- [ ] T065 [US3] Read existing lesson at book-source/docs/02-AI-Tool-Landscape/06-gemini-cli-installation-and-basics/07-custom-extensions.md (if exists)
-- [ ] T066 [US3] Restructure lesson for Stage 3 (Intelligence Design) - NOT extension development
-- [ ] T067 [US3] Add opening section: Pattern Recognition Framework (when to create skills)
-- [ ] T068 [US3] Document pattern recurrence criteria: Appears 2+ times, 5+ decision points, cross-project value
-- [ ] T069 [US3] Walk through research-workflow example (User Story 3 journey):
-- [ ] T070 [US3] Step 1: Show 3 repeated research tasks (Search → Read → Summarize → Save)
-- [ ] T071 [US3] Step 2: Student recognizes pattern recurrence
-- [ ] T072 [US3] Step 3: Create research-workflow.md skill with Persona+Questions+Principles format
-- [ ] T073 [US3] Provide complete skill template with all 3 components filled
-- [ ] T074 [US3] Step 4: Apply skill to new research task, measure time savings
-- [ ] T075 [US3] Add guided exercise: Student creates their own skill for recurring pattern
-- [ ] T076 [US3] Add CEFR/Bloom's/DigComp metadata (6 concepts, B1 tier - complexity increase justified)
-- [ ] T077 [US3] Add Stage 3 (Intelligence Design) tag to lesson metadata
-- [ ] T078 [US3] Include .claude/skills/ directory structure example
-- [ ] T079 [US3] Ensure "Try With AI" section uses preferred tool instruction
+**Independent Test**: Student creates 2-3 personal learning commands and successfully uses them
 
-**Checkpoint**: Lesson 7 teaches intelligence accumulation, students create reusable skills for recurring patterns
+- [X] T065 [US3] Read existing lesson at book-source/docs/02-AI-Tool-Landscape/06-gemini-cli-installation-and-basics/07-custom-slash-commands.md
+- [X] T066 [US3] SIMPLIFIED: Restructure for A2 beginners - personalization not intelligence design
+- [X] T067 [US3] Add opening: The repetition problem (typing same learning prompts)
+- [X] T068 [US3] Document simple TOML syntax (description + prompt only)
+- [X] T069 [US3] Show {{args}} placeholder for flexible commands
+- [X] T070 [US3] Provide 5 ready-to-use learning command examples (/learn, /explain, /summarize, /quiz, /progress)
+- [X] T071 [US3] Add folder organization with namespace notation (study:plan, research:topic)
+- [X] T072 [US3] Include step-by-step command creation walkthrough
+- [X] T073 [US3] Add common issues and troubleshooting section
+- [X] T074 [US3] Replace all programming examples with learning task examples
+- [X] T075 [US3] Remove advanced patterns (shell injection !{}, file injection @{})
+- [X] T076 [US3] Add CEFR/Bloom's/DigComp metadata (6 concepts, A2 tier maintained)
+- [X] T077 [US3] Add Stage 2 (AI Collaboration) tag to lesson metadata
+- [X] T078 [US3] Ensure all examples appropriate for pre-programming learners
+- [X] T079 [US3] Ensure "Try With AI" section uses preferred tool instruction
 
-**Phase 3 Complete**: Lessons 3 & 7 refactored, error analysis + intelligence design modalities demonstrated
+**Checkpoint**: Lesson 7 teaches simple personalization appropriate for A2 beginners learning with AI
+
+**Phase 3 Complete**: Lessons 3 & 7 refactored, demonstration pedagogy + beginner personalization demonstrated
 
 ---
 
