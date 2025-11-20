@@ -36,12 +36,12 @@ This document breaks down the implementation of Chapter 8 into actionable, depen
 
 **Dependencies**: None (start here)
 
-- [ ] T001 [P1] [Setup] Create chapter directory structure in book-source/docs/02-AI-Tool-Landscape/08-ai-native-ides/
-- [ ] T002 [P1] [Setup] Create subdirectories: lessons/, assets/, exercises/, templates/ in chapter root
-- [ ] T003 [P1] [Setup] Initialize README.md with chapter overview, 8-lesson structure, and learning path in 08-ai-native-ides/README.md
-- [ ] T004 [P1] [Setup] Create template files for observational exercises in templates/observational-comparison-template.md
-- [ ] T005 [P1] [Setup] Create reflection prompt template for capstone in templates/ide-comparison-reflection.md
-- [ ] T006 [P1] [Setup] Set up assets/ subdirectories: screenshots/, diagrams/, videos/, code-samples/
+- [X] T001 [P1] [Setup] Create chapter directory structure in book-source/docs/02-AI-Tool-Landscape/08-ai-native-ides/
+- [X] T002 [P1] [Setup] Create subdirectories: assets/, exercises/, templates/ in chapter root (Note: lessons/ removed - incorrect structure)
+- [X] T003 [P1] [Setup] Initialize README.md with chapter overview, 8-lesson structure, and learning path in 08-ai-native-ides/README.md
+- [X] T004 [P1] [Setup] Create template files for observational exercises in templates/observational-comparison-template.md
+- [X] T005 [P1] [Setup] Create reflection prompt template for capstone in templates/ide-comparison-reflection.md
+- [X] T006 [P1] [Setup] Set up assets/ subdirectories: screenshots/, diagrams/, videos/, code-samples/, research/
 
 ---
 
@@ -83,12 +83,12 @@ This document breaks down the implementation of Chapter 8 into actionable, depen
 
 ### Content Creation
 
-- [ ] T021 [P1] [US1] Write lesson introduction explaining chapter goals and 8-lesson roadmap in lessons/01-ai-native-concepts/README.md
-- [ ] T022 [P1] [US1] Write section: "What Makes an IDE AI-Native?" (architectural design vs plugins) in lessons/01-ai-native-concepts/01-definition.md
-- [ ] T023 [P1] [US1] Write section: "Three Key Characteristics" (context-aware AI, multi-model support, agent capabilities) in lessons/01-ai-native-concepts/02-characteristics.md
-- [ ] T024 [P1] [US1] Write section: "AI-Native vs Plugin Architecture" (Cursor/Zed vs VS Code+Copilot comparison) in lessons/01-ai-native-concepts/03-architecture-comparison.md
-- [ ] T025 [P1] [US1] Write section: "Why Architecture Matters" (reduced context switching, tighter feedback loops) in lessons/01-ai-native-concepts/04-why-architecture-matters.md
-- [ ] T026 [P1] [US1] Write section: "The Landscape in 2025" (overview of Zed, Cursor, Antigravity without deep-dive) in lessons/01-ai-native-concepts/05-landscape-2025.md
+- [X] T021 [P1] [US1] Write lesson content (all sections in single file per book structure) in 01-ai-native-concepts.md
+- [X] T022 [P1] [US1] Section: "What Makes an IDE AI-Native?" (architectural design vs plugins) - included in 01-ai-native-concepts.md
+- [X] T023 [P1] [US1] Section: "Three Key Characteristics" (context-aware AI, multi-model support, agent capabilities) - included in 01-ai-native-concepts.md
+- [X] T024 [P1] [US1] Section: "AI-Native vs Plugin Architecture" (comparison table) - included in 01-ai-native-concepts.md
+- [X] T025 [P1] [US1] Section: "Why Architecture Matters" (speed, context quality, evolution) - included in 01-ai-native-concepts.md
+- [X] T026 [P1] [US1] Section: "The Landscape in 2025" (Zed, Cursor, Antigravity overview) - included in 01-ai-native-concepts.md
 
 ### Assessment & Exercises
 
